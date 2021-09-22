@@ -5,3 +5,6 @@
 
 
 * [ps3远程加载iso](https://waizui.github.io/ps3netsrvTutor.html)
+
+
+* [vim入门](https://waizui.github.io/ps3netsrvTutor.html)
