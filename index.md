@@ -8,3 +8,5 @@
 
 
 * [vim入门](https://waizui.github.io/vimTutor.html)
+
+* [ps2运行ps1游戏](https://waizui.github.io/popstartTutor.html)
