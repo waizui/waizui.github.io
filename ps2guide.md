@@ -109,7 +109,8 @@ z
 
 >6.回到电脑，你会看到刚刚建立的ps2smb文件夹下多了许多文件夹，其中有一个叫做DVD的文件夹，所有你从网上下载的ps2游戏，都是以iso为后缀名的，放到这个文件夹下面，ps2会自动识别。![DVD](https://gitee.com/waizui/ps2guide/raw/main/images/dvdFolder.png)
 
->7.放入游戏后，在ps2中，进入opl后，选择ETH游戏，就能看到你刚刚放入的游戏，圆圈键运行。这里推荐一个下载游戏ISO的网站<https://www.oldmanemu.net/%e5%ae%b6%e6%9c%ba%e6%b8%b8%e6%88%8f/ps2/ps2%e4%b8%ad%e6%96%87%e6%b8%b8%e6%88%8f%e5%85%a8%e9%9b%86>
+>7.放入游戏后，在ps2中，进入opl后，选择ETH游戏，就能看到你刚刚放入的游戏，圆圈键运行。这里推荐一个下载游戏ISO的网站
+[Oldman](https://www.oldmanemu.net/%e5%ae%b6%e6%9c%ba%e6%b8%b8%e6%88%8f/ps2/ps2%e4%b8%ad%e6%96%87%e6%b8%b8%e6%88%8f%e5%85%a8%e9%9b%86)
 ![game](https://gitee.com/waizui/ps2guide/raw/main/images/games.jpg)
 
 ### Linux篇
@@ -140,5 +141,6 @@ z
 
 ![ps2folder](https://gitee.com/waizui/ps2guide/raw/main/images/linuxFolder.png)
 
-放入游戏后，在ps2中，进入opl后，选择ETH游戏，就能看到你刚刚放入的游戏，圆圈键运行。这里推荐一个下载游戏ISO的网站<https://www.oldmanemu.net/%e5%ae%b6%e6%9c%ba%e6%b8%b8%e6%88%8f/ps2/ps2%e4%b8%ad%e6%96%87%e6%b8%b8%e6%88%8f%e5%85%a8%e9%9b%86>
+放入游戏后，在ps2中，进入opl后，选择ETH游戏，就能看到你刚刚放入的游戏，圆圈键运行。
+这里推荐一个下载游戏ISO的网站[Oldman](https://www.oldmanemu.net/%e5%ae%b6%e6%9c%ba%e6%b8%b8%e6%88%8f/ps2/ps2%e4%b8%ad%e6%96%87%e6%b8%b8%e6%88%8f%e5%85%a8%e9%9b%86)
 ![game](https://gitee.com/waizui/ps2guide/raw/main/images/games.jpg)
