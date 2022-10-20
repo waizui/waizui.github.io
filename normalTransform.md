@@ -1,3 +1,15 @@
+<head>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            inlineMath: [['$','$']]
+            }
+        });
+    </script>
+</head>
+
 # 法线变换
 
 ## 1.变换函数
@@ -88,6 +100,7 @@ $$
 但是mul却将法线放在左边，右乘一个世界空间到模型空间的矩阵，这又是怎么回事?  
 
 首先我们先来看，根据上面推到的变换矩阵，变换法线可以表示为:
+
 $$
  V_{normalWorldSpace} = ({M_t}^{-1})^T*V_{normalObjectSpace}
 $$
@@ -100,11 +113,13 @@ $$
 
 我们知道世界空间到模型空间的矩阵，就是模型空间到世界空间的矩阵的逆，
 式子中模型空间到世界空间的变换矩阵的逆，可以直接用世界空间到模型空间的矩阵表示
+
 $$
  {M_t}^{-1} = M_{worldToObject}
 $$
 
 替换后得到：
+
 $$
  {V_{normalWorldSpace}}^T = {V_{normalObjectSpace}}^T*M_{worldToObject}
 $$
