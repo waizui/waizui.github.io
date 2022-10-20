@@ -2,6 +2,9 @@
 
 ## contents
 
+
+* [法线变换](https://waizui.github.io/normalTransform.html)  
+
 * [Addressable踩坑记录](https://waizui.github.io/Addressable_issues.html)  
 
 * [Jenkins+unity+Android混合开发](https://waizui.github.io/unity+jenkins+android.html)  
