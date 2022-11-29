@@ -162,6 +162,24 @@ AA可以在PackageManager中直接安装。建议可以直接转最新的版本�
         }
     }
 
-    ```
+    ```  
+
+* GUID
+    - 有的工程需按规则自动生成AA分组(AddressableAssetGroup)，这会遇到一个问题，
+    假如每次都重新清除合创建新分组，那么每次打出来的资源的guid是变化的，
+    导致下载没有变化的资源，尽管资源和分组名都是没有变化的。如果要每次打出的资源没有变化，
+    要保证几样东西不变。 
+
+    1. 分组不变，只能在已经存在的分组里增删资源，如果每次都新建分组，即使同名并且资源相同
+    那么仍然会导致每次打包出的资源guid变化，因为AA分组在每次新建时是取了一个新的分组guid，
+    后面打包的资源的会依据这个guid做一次hash得到资源guid。
+
+    2. schema不变，每个分组的schema只能用已经存在的，如果schema改变，那么guid也会改变。
+    并且如果直接使用 AddressableAssetGroup.RemoveSchema的话，会造成schema的资源被删除。
+    所以如果要清除schema的话，AddressableAssetGroup.Schemas.Clear，这样可以保证不会删除资源。
+
+    3. 要将生成好的分组，schema都提交到版本管理，这样每次切到某个版本做资源构建的时候才
+    不会发生guid变化，
+    
 
 ## ... 待续
