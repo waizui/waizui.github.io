@@ -128,7 +128,9 @@ AA可以在PackageManager中直接安装。建议可以直接转最新的版本�
     这个地址可以是远程也可以是本地的，载入其它catalog后，AA将会缓存这个catalog，后面可以使用Addressables.UpdateCatalogs
     来更新指定的catalog。 不过要更新手动载入的catalog的话，在我使用的这个版本的AA里，需要先卸载掉
     这个catalog，更新之后，再重新载入这个catalog。
+
     ```C#
+
     // 手动载入catalog
     public async Task<bool> InitCatalogAsync() {
         var catalogPath = GetLocalCatalogPath();
