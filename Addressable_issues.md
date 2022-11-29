@@ -123,5 +123,43 @@ AA可以在PackageManager中直接安装。建议可以直接转最新的版本�
             return location.InternalId; 
         }
     ```     
+* 多Catalog 
+    - AA支持多catalog，甚至可以使用其它工程打出的资源。使用方法是指定一个catalog地址载入，
+    这个地址可以是远程也可以是本地的，载入其它catalog后，AA将会缓存这个catalog，后面可以使用Addressables.UpdateCatalogs
+    来更新指定的catalog。 不过要更新手动载入的catalog的话，在我使用的这个版本的AA里，需要先卸载掉
+    这个catalog，更新之后，再重新载入这个catalog。
+    ```C#
+    // 手动载入catalog
+    public async Task<bool> InitCatalogAsync() {
+        var catalogPath = GetLocalCatalogPath();
+        foreach (var locator in Addressables.ResourceLocators) {
+            // 如果已经装载，不用再重新载入
+            if (locator.LocatorId == catalogPath) {
+                return true;
+            }
+        }
+
+        if (mLoadOp.IsValid()) {
+            return true;
+        }
+
+        var loadOp = Addressables.LoadContentCatalogAsync(catalogPath, false);
+        mLoadOp = loadOp;
+        await loadOp.Task;
+        if (loadOp.Status != AsyncOperationStatus.Succeeded) {
+            return false;
+        }
+
+        return true;
+    }
+
+    // 要更新手动载入的catalog，必须先卸载已经载入的catalog
+    public void UnloadCatalog() {
+        if (mLoadOp.IsDone && mLoadOp.IsValid()) {
+            Addressables.Release(mLoadOp);
+        }
+    }
+
+    ```
 
 ## ... 待续
