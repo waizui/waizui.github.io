@@ -1,6 +1,7 @@
 # Waizui's blog
 
 ## contents
+* [猫入境日本](https://waizui.github.io/others/pet/catToJapan/pets.html)  
 
 * [RayMarching](https://waizui.github.io/ray_marching/ray_marching.html)  
 
