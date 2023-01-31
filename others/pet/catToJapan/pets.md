@@ -1,4 +1,4 @@
-[说明书](https://www.maff.go.jp/aqs/animal/dog/attach/pdf/import-other-43.pdf)
+[说明书(指南)](https://www.maff.go.jp/aqs/animal/dog/attach/pdf/import-other-43.pdf)
 1. 植入芯片
 
 2. 狂犬病预防注册两次以上
@@ -8,22 +8,22 @@
 4. 输出前待机180天(血清采血日后至少180天才运行入境日本)
 
 5. 事前申报
+	- 所有[检疫文档下载地址](https://www.maff.go.jp/aqs/tetuzuki/system/97.html)
 	- 在抵达日期的40天以前，要向机场的动物检疫所申报。
-	- 羽田机场[邮箱](aqs.hnd@maff.go.jp)及[电话](03-5757-9752)，指南第23页 
 	1. 提交申报书
 		1. 电子邮件
-			- 获取[申报书](https://www.maff.go.jp/aqs/tetuzuki/system/97.html)
-			- [猫申请示例](https://www.maff.go.jp/aqs/animal/dog/pdf/notifi-cat-jp20210806.pdf)
+			- 获取[申报书](https://www.maff.go.jp/aqs/tetuzuki/system/pdf/notifi-cat20210721.pdf)
+			- [猫申报示例](https://www.maff.go.jp/aqs/animal/dog/pdf/notifi-cat-jp20210806.pdf)
 			- 提交到对应机场动物检疫所[地址](./(%E7%94%B3%E8%AF%B7%E4%B9%A6%E5%8F%91%E9%80%81%E5%9C%B0%E5%9D%80)aqs_contact_list_dogcat.pdf)
-			- 因为目前找到两个版本的申请书，所以都填上发
 			- 还未确定到哪个机场的，所有可能的机场都发申请，确定后再提交[变更申报书](./(%E5%8F%98%E6%9B%B4%E9%80%9A%E7%9F%A5%E4%B9%A6)modnotification.pdf)
+			- 邮件正文写上大概什么时候入境，带多少只猫，是什么目的(写作为宠物喂养)
 		2. 网上申报
 			- [NACCS](https://www.maff.go.jp/aqs/tetuzuki/system/49.html)
 	2. 受理申报书
 		- 发出申请后等待受理书，接收指示修改。
 	3. 变更申报书
 		- 确定航班机场后发出变更申报书，也是40天以前。为保险最好2个月以前。先订票，准备好所有的资料。
-		- 有几项变更会不予批准，注意检查。
+		- 有几项变更会不予批准，注意根据本说明书中检查。
 	4. 在变更完毕，准备好所有材料后，由检疫所给出受理书。需要打印出来，电子文档保存好。
 
 6. 出国前临床检查
@@ -51,7 +51,8 @@
 
 8. 抵达日本后的输入检查
 	1. 抵达时检查
-		- 输入检查申请书(如何获取的?)
+		- 输入[检查申请书](https://www.maff.go.jp/aqs/tetuzuki/system/pdf/appli-im-cat20210721.pdf)
+			- 申请书不需要提前给检疫所吗?直接根据申报书填好带到日本?
 		- 委托书(代理人半手续时需要)
 		- 血清检查的通知书(扫描一份)!!! 3000一份很贵
 		- 步骤7 中的证明书
