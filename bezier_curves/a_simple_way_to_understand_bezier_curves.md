@@ -22,7 +22,7 @@ Leaving out the mathematical details at the beginning would
 make it easier to understand some concepts.
 
 I'm familiar with the Interpolation of two vectors, which is
-basically using two numbers whose sum equals 1 and between 0 and 1.
+basically using two numbers whose value between 0 and 1, and sum equals 1.
 Then, Multiplying two vectors respectively and adding the products up. 
 Well, actually,this is a **Linear bezier curve**. For example,let's say 
 there are to vectors p1(1,0) and p2(2,0). Using 0.5 to multiply p1 and p2, 
