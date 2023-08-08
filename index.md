@@ -1,6 +1,8 @@
 # Waizui's blog
 
 ## contents
+* [A simple way to understand bezier curves](https://waizui.github.io/bezier_curves/a_simple_way_to_understand_bezier_curves.html)  
+
 * [猫入境日本](https://waizui.github.io/others/pet/catToJapan/pets.html)  
 
 * [RayMarching](https://waizui.github.io/ray_marching/ray_marching.html)  
