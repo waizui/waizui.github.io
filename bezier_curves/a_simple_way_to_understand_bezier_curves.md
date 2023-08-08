@@ -59,7 +59,7 @@ where n is the order of bezier curve, p represents vectors that are used to be i
 Let n=2 we can get a quadratic bezier curve
 
 $$
-	B(t)=(1-t)^{2}P_1 + (1-t)tP_2 + t^2P_3
+	B(t)=(1-t)^{2}P_1 + 2(1-t)tP_2 + t^2P_3
 $$
 
 A reference can be found [here](https://en.wikipedia.org/wiki/B%C3%A9zier_curve).
