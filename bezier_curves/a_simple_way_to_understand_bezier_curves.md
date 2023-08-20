@@ -46,7 +46,7 @@ a new vector c3 that lies on the path of a **quadratic bezier curve**.
 
 ## Extension
 
-Finally mathematic has to be bring back. Luckily some smart individuals had 
+Finally mathematic has to be brought back. Luckily some smart individuals had 
 concluded the general definition of bezier curve for us, which is :
 
 $$
