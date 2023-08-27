@@ -1,4 +1,4 @@
-# Waizui's blog
+# WaiZui's blog
 
 ## contents
 * [A simple way to understand bezier curves](https://waizui.github.io/bezier_curves/a_simple_way_to_understand_bezier_curves.html)  
@@ -19,7 +19,7 @@
 
 * [ps3远程加载iso](https://waizui.github.io/ps3netsrvTutor.html)
 
-* [ps2入坑指南](https://waizui.github.io/ps2guide.html)
+* [ps2入坑指南](https://waizui.github.io/ps2guide/ps2guide.html)
 
 
 
