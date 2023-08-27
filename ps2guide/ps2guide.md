@@ -20,7 +20,7 @@
 1. 
     >厚机(fat):厚机体积很大，能加装硬盘的，但是不推荐，因为网线接口不是内置的。
 
-    >![fat](./images/220px-PS2-Fat-Console-Set.jpg)
+    >![fat](./220px-PS2-Fat-Console-Set.jpg)
 
 
 
