@@ -7,7 +7,7 @@
 
 * [RayMarching](https://waizui.github.io/ray_marching/ray_marching.html)  
 
-* [法线变换](https://waizui.github.io/normalTransform.html)  
+* [法线变换](https://waizui.github.io/normalTransform/normalTransform.html)  
 
 * [Addressable踩坑记录](https://waizui.github.io/Addressable_issues.html)  
 
@@ -15,7 +15,7 @@
 
 * [ps2运行ps1游戏](https://waizui.github.io/popstartTutor.html)
 
-* [vim入门](https://waizui.github.io/vimTutor.html)
+* [vim入门](https://waizui.github.io/vimTutor/vimTutor.html)
 
 * [ps3远程加载iso](https://waizui.github.io/ps3netsrvTutor.html)
 

@@ -58,7 +58,7 @@ $$
 造成这个结果的原因是这个矩阵包含缩放变换，在进行缩放后，再进行第二次旋转，会导致法线的旋转错误。
 所以如果我们要正确变换法线，那么就要从这个变换矩阵中去掉缩放变换。
 
-![normal](./Pics/NormalTransformation/normalTransform.png)
+![normal](./normalTransform.png)
 
 那要如何从复合的举证中去除掉缩放变换呢？其实很简单：
 
