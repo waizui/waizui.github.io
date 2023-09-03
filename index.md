@@ -1,6 +1,8 @@
 # WaiZui's blog
 
 ## contents
+* [A glimpse of quaternion](https://waizui.github.io/a_glimpse_of_quaternion/a_glimpse_of_quaternion.html)
+
 * [A simple way to understand bezier curves](https://waizui.github.io/bezier_curves/a_simple_way_to_understand_bezier_curves.html)  
 
 * [猫入境日本](https://waizui.github.io/others/pet/catToJapan/pets.html)  
