@@ -15,12 +15,22 @@ Under Constructing...
 
 
 ## Definition of Quaternion
+First, the definition of quaternion is:
 
 $$
 	q=a+bi+cj+dk;
 	\\
 	 \
-	\\ where \ (a,b,c,d \in R)\ and \ i^2+j^2+k^2=ijk=-1
+	\\ where \ (a,b,c,d \in R)\ and \ i^2=j^2=k^2=ijk=-1
+$$
+
+It looks very simple, and very similar to the definition of **complex number**, which is
+
+$$
+	w = a+bi
+	\\
+	 \
+	\\ where \ (a,b, \in R)\ and \ i^2=-1
 $$
 
 
