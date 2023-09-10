@@ -18,7 +18,7 @@ Under Constructing...
 First, the definition of quaternion is:
 
 $$
-	q=a+bi+cj+dk; \ \ \ \ \ \ \ \ \ \ (Equation 1)
+	\hat{q}=a+bi+cj+dk; \ \ \ \ \ \ \ \ \ \ (Equation 1)
 	\\
 	 \
 	\\ where \ (a,b,c,d \in R)\ and \ i^2=j^2=k^2=ijk=-1
@@ -50,7 +50,7 @@ respective axis.
 ### The head-pitch-roll transform
 
 A commonly used view direction lies along the negative z-axis with the head oriented 
-along the y-axis. shown in the picture.
+along the y-axis. shown in the figure.
 ![fig_hrp](./pic/hrp.png)
 
 Rotations around y, x and z axis are called head, pitch, and roll.
@@ -120,11 +120,81 @@ called **gimbal lock**. Because of the numerical instability, The Euler Transfor
 not the ideal scheme of representing rotations.
 
 ## Properties of Quaternion
+Let's get back to the **Equation1**, 
+
+$$
+    \begin{align*} 
+    \because i\times j\times k &= -1  \\  
+    \therefore (i\times j\times k)\times k &= -1\times k \\ 
+    (i\times j)\times(k\times k) &= -k \\ 
+    \because k^2 &= -1  \\  
+    \therefore (i\times j)\times(-1) &= -k \\ 
+    -(i\times j) &= -k \\ 
+    i\times j &= k 
+    \end{align*}
+$$
+
+because the same principle, the relation of ijk is:
+
+$$
+    ij=k\ \   ki=j \  \  jk=i
+$$
+
+which can be represented in the following figure.
+
+![ijk](./pic/ijk_pic.png)
+
+A quaternion can also be written in following way:
+
+$$
+    \hat{q} = (r,\vec{v}) \ ; \ \ \ \ \ \ \ \ \ r \in R \ \ and \ \ \vec{v} = bi+cj+dk
+$$
+
+where r is the **real part** of the v is the **imaginary part**.
+
+### Multiplication
+Note that the multiplication of quaternions is **not commutative**.
+
+Giving quaternion q1 and q2, the multiplication of them is:
+
+$$
+    \begin{align*}
+    &{\hat{q}}_1 {\hat{q}}_2 = (a_1,\vec{v_1})(a_2,\vec{v_2}) \\
+    &=(a_1+ib_1+jc_1+kd_1)(a_2+ib_2+jc_2+kd_2)  \\
+    &=(a_1a_2-(a_1a_2+b_1b_2+c_1c_2+d_1d_2)) \\
+    &+ i(a_1b_2+a_2b_1+c_1d_2-d_1c_2)\\
+    &+ j(a_1c_2+a_2c_1+b_1d_2-d_1b_2)\\
+    &+ k(a_1d_2+a_2d_1+b_1c_2-c_1b_2)\\
+    \end{align*}
+$$
+
+Since 
+
+$$
+    \vec{v_1} \times \vec{v_2} =
+    \begin{vmatrix}
+    i & j & k \\
+    b_1 & c_1 & d_1 \\
+    b_2 & c_2 & d_2 \\
+    \end{vmatrix}
+    = 
+    + i(c_1d_2-d_1c_2)
+    +j(b_1d_2-d_1b_2)
+    +k(b_1c_2-c_1b_2)
+$$
+
+the product of two quaternions' multiplication can also be written as
+
+$$
+
+    {\hat{q}}_1 {\hat{q}}_2 = 
+    (a_1a_2-\vec{v_1}\cdot\vec{v_2}\ , a_1\vec{v_2}+a_2\vec{v_1}+\vec{v_1} \times \vec{v_2})
+$$
 
 
 
 
-## Calculation of Quaternion
+## Quaternion and rotation
 
 
 ## A Implement
