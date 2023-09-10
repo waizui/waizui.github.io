@@ -18,7 +18,7 @@ Under Constructing...
 First, the definition of quaternion is:
 
 $$
-	\hat{q}=a+bi+cj+dk; \ \ \ \ \ \ \ \ \ \ (Equation 1)
+	\hat{q}=a+bi+cj+dk; \qquad (Equation 1)
 	\\
 	 \
 	\\ where \ (a,b,c,d \in R)\ and \ i^2=j^2=k^2=ijk=-1
@@ -27,7 +27,7 @@ $$
 It looks very simple, and very similar to the definition of **complex number**, which is
 
 $$
-	w = a+bi \ \ \ \ \ \ \ \ \ \ (Equation 2)
+	w = a+bi \qquad (Equation 2)
 	\\
 	 \
 	\\ where \ (a,b, \in R)\ and \ i^2=-1
@@ -58,7 +58,7 @@ Rotations around y, x and z axis are called head, pitch, and roll.
 More formally, the Euler Transform denoted **E**, is given by this equation:
 
 $$
-    E(h,p,r) = R_z(r)R_x(p)R_y(h) \ \ \ \ \ \ \ \ \ \ (Equation 3)
+    E(h,p,r) = R_z(r)R_x(p)R_y(h) \qquad (Equation 3)
 $$
 
 where the h, p, r, are the Euler angles, representing in which order and how much the head, pitch, and
@@ -100,7 +100,7 @@ $$
     \end{bmatrix}
     \\
 
-    \ \ \ \ \ \ \ \ \ \ (Equation 4)
+    (Equation 4)
 $$
 
 Ok, here comes one of the most funny things in computer graphics. If we let p=π/2,
@@ -137,7 +137,7 @@ $$
 because the same principle, the relation of ijk is:
 
 $$
-    ij=k\ \   ki=j \  \  jk=i
+    ij=k\ \   ki=j \  \  jk=i  \qquad (Equation5)
 $$
 
 which can be represented in the following figure.
@@ -147,7 +147,7 @@ which can be represented in the following figure.
 A quaternion can also be written in following way:
 
 $$
-    \hat{q} = (r,\vec{v}) \ ; \ \ \ \ \ \ \ \ \ r \in R \ \ and \ \ \vec{v} = bi+cj+dk
+    \hat{q} = (r,\vec{v}) \ ; \qquad r \in R \ \ and \ \ \vec{v} = bi+cj+dk \qquad (Equation6)
 $$
 
 where r is the **real part** of the v is the **imaginary part**.
@@ -178,7 +178,7 @@ $$
     b_2 & c_2 & d_2 \\
     \end{vmatrix}
     = 
-    + i(c_1d_2-d_1c_2)
+    i(c_1d_2-d_1c_2)
     +j(b_1d_2-d_1b_2)
     +k(b_1c_2-c_1b_2)
 $$
@@ -189,9 +189,20 @@ $$
 
     {\hat{q}}_1 {\hat{q}}_2 = 
     (a_1a_2-\vec{v_1}\cdot\vec{v_2}\ , a_1\vec{v_2}+a_2\vec{v_1}+\vec{v_1} \times \vec{v_2})
+    \qquad (Equation7)
 $$
 
+## Conjugate
 
+$$
+   \hat{q}^*  = (r,\vec{v})^*  
+$$
+
+## Addition
+
+$$
+
+$$
 
 
 ## Quaternion and rotation
