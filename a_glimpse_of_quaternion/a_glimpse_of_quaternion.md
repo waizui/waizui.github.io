@@ -37,22 +37,25 @@ In fact, there are some links between quaternions and complex numbers, and if yo
 in the history of quaternions and the inventor of it, check this [wiki](https://en.wikipedia.org/wiki/William_Rowan_Hamilton).
 
 Quaternion is useful and compact in terms of representing three-dimensional rotation. So it's widely
-used in various industries. 
+used in various places. 
 
-In this article only small fractions of quaternions will be discussed, the whole picture of quaternion
+In this article, only small fractions of quaternions will be discussed; Since the whole picture of quaternion
 is huge and lot of mathematical knowledge are required to be able to understand it.
 
 ## Euler Transform
-To represent rotations, Euler Transform is an intuitive choice.
+Let's take a look at Euler Transform at first. To represent rotations, Euler Transform 
+is an intuitive choice. It's the multiplication of three matrices, each matrix is the rotation around it's
+respective axis. 
 
 ### The head-pitch-roll transform
 
-A commonly used view direction lies along the negative z-axis with the head oriented along the y-axis.
-The Euler transform is the multiplication of three matrices, each matrix is the rotation around it's
-respective axis, shown in the picture.
+A commonly used view direction lies along the negative z-axis with the head oriented 
+along the y-axis. shown in the picture.
 ![fig_hrp](./pic/hrp.png)
 
-More formally, the transform denoted **E**, is given by this equation:
+Rotations around y, x and z axis are called head, pitch, and roll.
+
+More formally, the Euler Transform denoted **E**, is given by this equation:
 $$
     E(h,p,r) = R_z(r)R_x(p)R_y(h) \ \ \ \ \ \ \ \ \ \ (Equation 3)
 $$
@@ -99,9 +102,24 @@ $$
     \ \ \ \ \ \ \ \ \ \ (Equation 4)
 $$
 
+Ok, here comes one of the most funny things in computer graphics. If we let p=π/2,
+which means rotate around x axis 90 degrees and cos(p)=0, **Equation4** will become:
+$$
+    \begin{bmatrix}
+    cos\ r\ cos\ h -sin\ r\ sin\ h & 0  & cos\ r\ sin\ h +sin\ r\  cos\ h \\
+    sin\ r\ cos\ h +cos\ r\ sin\ h & 0  & sin\ r\ sin\ h -cos\ r\  cos\ h \\
+    0                              & 1  & 0                               \\
+    \end{bmatrix}
+$$
+
+In this case, no matter what value we give r and h, they can be interchangeable, which
+means there are more than one combination of angles can yield same product, this is
+called **gimbal lock**. Because of the numerical instability, The Euler Transforms is
+not the ideal scheme of representing rotations.
+
+## Properties of Quaternion
 
 
-## Properties
 
 
 ## Calculation of Quaternion
