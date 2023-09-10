@@ -65,9 +65,9 @@ where the h, p, r, are the Euler angles, representing in which order and how muc
 roll should rotate around their respective axes. 
 
 ### Why not using Euler Transform
-Despite of  being intuitive and simple, Euler Transform has a fetal defect.
+Despite of being intuitive and simple, Euler Transform has a fetal defect.
 
-Since the last column and row of a pure rotation 4x4 matrix are zero, we can using
+Since the last column and row of a pure rotation 4x4 matrix are zero, we can use
 a 3x3 matrix as the equivalent matrix, thus, **Equation3** yields:
 
 $$
