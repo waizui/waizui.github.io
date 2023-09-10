@@ -56,6 +56,7 @@ along the y-axis. shown in the picture.
 Rotations around y, x and z axis are called head, pitch, and roll.
 
 More formally, the Euler Transform denoted **E**, is given by this equation:
+
 $$
     E(h,p,r) = R_z(r)R_x(p)R_y(h) \ \ \ \ \ \ \ \ \ \ (Equation 3)
 $$
@@ -104,6 +105,7 @@ $$
 
 Ok, here comes one of the most funny things in computer graphics. If we let p=π/2,
 which means rotate around x axis 90 degrees and cos(p)=0, **Equation4** will become:
+
 $$
     \begin{bmatrix}
     cos\ r\ cos\ h -sin\ r\ sin\ h & 0  & cos\ r\ sin\ h +sin\ r\  cos\ h \\
