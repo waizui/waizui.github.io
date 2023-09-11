@@ -133,7 +133,7 @@ $$
     \end{align*}
 $$
 
-because the same principle, the relation of ijk is:
+because of the same principle, the relation of ijk is:
 
 $$
     ij=k\ \   ki=j \  \  jk=i  \qquad (Equation5)
@@ -332,7 +332,7 @@ $$
     \end{align*} 
 $$
 
-For left multiplying a unit quaternion q = a+bi+cj+dk, the equivalent matrix is:
+Therefor, left multiplying a unit quaternion q = a+bi+cj+dk, the equivalent matrix is:
 
 $$
     M_{ql}=
@@ -344,15 +344,15 @@ $$
     \end{bmatrix} \qquad (Equation15)
 $$
 
-Based on same principle, the equivalent right multiply matrix is:
+Based on same principle, the equivalent matrix of right multiply the conjugate of q is:
 
 $$
-    M_{qr}=
+    M_{q^*r}=
     \begin{bmatrix}
-    a& -b& -c& -d\\
-    b& a& d& -c\\
-    c& -d& a& b\\  
-    d& c& -b& a 
+    a& b& c& d\\
+    b& a& -d& c\\
+    c& d& a& -b\\  
+    d& -c& b& a 
     \end{bmatrix} \qquad (Equation16)
 $$
 
@@ -360,7 +360,7 @@ Hence, a equivalent rotate matrix of q is:
 
 $$
     \begin{align*}
-    \hat{q}  \hat{p}   \hat{q}^{*}  &= M_{ql}M_{qr} \\
+    M_q&= \hat{q}  \hat{p}   \hat{q}^{*}  = M_{ql}M_{q^*r} \\
     &=
     \begin{bmatrix}
     1& 0            & 0            & 0  \\
@@ -380,4 +380,8 @@ no trigonometric calculation is needed, the equivalent matrix can be very effici
 
 ## References
 
-[Real-Time rendering 4th edition, Tomas Akenine-Moller etc.](https://www.realtimerendering.com/blog/)
+[Real-Time rendering 4th edition](https://www.realtimerendering.com/blog/)
+
+[Don’t Get Lost in Deep Space: Understanding Quaternions](https://www.allaboutcircuits.com/technical-articles/dont-get-lost-in-deep-space-understanding-quaternions/#)
+
+[The (Imaginary) Numbers at the Edge of Reality](https://www.quantamagazine.org/the-imaginary-numbers-at-the-edge-of-reality-20181025/#:~:text=In%201843%2C%20William%20Rowan%20Hamilton,Hamilton%20called%20j%20and%20k.)
