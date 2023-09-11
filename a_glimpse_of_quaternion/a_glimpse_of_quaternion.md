@@ -359,15 +359,18 @@ $$
 Hence, a equivalent rotate matrix of q is:
 
 $$
+    \\
     \begin{align*}
-    M_q&= \hat{q}  \hat{p}   \hat{q}^{*}  = M_{ql}M_{q^*r} \\
-    &=
-    \begin{bmatrix}
+    M_q &= M_{ql}M_{q^*r}  \\ 
+    &=\begin{bmatrix}
     1& 0            & 0            & 0  \\
     0& 1-2(c^2+d^2) & 2(bc-ad)     & 2(ac+bd) \\
     0& 2(bc+ad)     & 1-2(b^2+d^2) & 2(cd-ab) \\
     0& 2(bd-ac)     & 2(ab+cd)     & 1-2(b^2+c^2) \\
-    \end{bmatrix} \hat{p}^T \qquad (Equation17)
+    \end{bmatrix} \qquad (Equation17) \\
+
+    \hat{q}  \hat{p}   \hat{q}^{*}  
+    &= M_q \hat{p}^T \\
     \end{align*}
 $$
 
