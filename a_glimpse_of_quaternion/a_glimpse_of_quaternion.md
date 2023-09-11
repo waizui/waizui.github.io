@@ -104,7 +104,7 @@ $$
 $$
 
 Ok, here comes one of the most funny things in computer graphics. If we let p=π/2,
-which means rotate around x axis 90 degrees and cos(p)=0, **Equation4** will become:
+which means rotating around x axis 90 degrees and cos(p)=0, **Equation4** will become:
 
 $$
     \begin{bmatrix}
@@ -114,9 +114,7 @@ $$
     \end{bmatrix}
 $$
 
-In this case, no matter what value we give r and h, they can be interchangeable, which
-means there are more than one combination of angles can yield same product, this is
-called **gimbal lock**. Because of the numerical instability, The Euler Transforms is
+In this case, no matter what value we give r and h, they can only make it rotate around y aixs, which means one degree of freedom has lost, this is called **gimbal lock**. Because of the numerical instability, The Euler Transforms is
 not the ideal scheme of representing rotations.
 
 ## Properties of Quaternion
