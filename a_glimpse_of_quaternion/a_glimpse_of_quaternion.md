@@ -114,7 +114,8 @@ $$
     \end{bmatrix}
 $$
 
-In this case, no matter what value we give r and h, they can only make it rotate around y aixs, which means one degree of freedom has lost, this is called **gimbal lock**. Because of the numerical instability, The Euler Transforms is
+In this case, no matter what value we give r and h, the z coordinates of a vector to be rotated remains unchanged,
+ which means one degree of freedom has lost, this is called **gimbal lock**. Because of the numerical instability, The Euler Transforms is
 not the ideal scheme of representing rotations.
 
 ## Properties of Quaternion
