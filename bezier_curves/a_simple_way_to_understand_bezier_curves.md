@@ -25,7 +25,7 @@ I'm familiar with the Interpolation of two vectors, which is
 basically using two numbers whose value between 0 and 1, and sum equals 1.
 Then, Multiplying two vectors respectively and adding the products up. 
 Well, actually,this is a **Linear bezier curve**. For example,let's say 
-there are to vectors p1(1,0) and p2(2,0). Using 0.5 to multiply p1 and p2, 
+there are two vectors p1(1,0) and p2(2,0). Using 0.5 to multiply p1 and p2, 
 and then adding the products up, we could get a new vector c1 that lies 
 exactly in the middle of p1 and p2.
 
