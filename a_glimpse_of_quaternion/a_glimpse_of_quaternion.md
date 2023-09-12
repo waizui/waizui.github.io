@@ -350,9 +350,9 @@ $$
     M_{q^*r}=
     \begin{bmatrix}
     a& b& c& d\\
-    b& a& -d& c\\
-    c& d& a& -b\\  
-    d& -c& b& a 
+    -b& a& -d& c\\
+    -c& d& a& -b\\  
+    -d& -c& b& a 
     \end{bmatrix} \qquad (Equation16)
 $$
 
