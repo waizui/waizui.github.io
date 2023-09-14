@@ -149,7 +149,7 @@ $$
     \hat{q} = (a,\vec{v}) \ ; \qquad a \in R \ \ and \ \ \vec{v} = bi+cj+dk \qquad (Equation6)
 $$
 
-where r is the **real part** of the v is the **imaginary part**.
+where r is the **real part**, v is the **imaginary part**.
 
 ### 3.1  Addition
 
