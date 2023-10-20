@@ -1,10 +1,8 @@
 ---
 layout: page
-title: About
+title: About me
 permalink: /about/
 ---
-
-### About me
 
 Hi, I'm waizui, I post mostly about tech and games.
 
