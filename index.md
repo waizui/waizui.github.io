@@ -1,4 +1,3 @@
-## WaiZui's blog
 
 ### [About me](https://waizui.github.io/about.html)
 

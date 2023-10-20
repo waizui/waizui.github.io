@@ -1,11 +1,10 @@
-# About me
 
 Hi, I'm WaiZui, I post mostly about tech and games.
 
-## My Github
+### My Github
 
 https://github.com/waizui
 
-## Contact me
+### Contact me
 
 lch01234@gmail.com
