@@ -2,6 +2,8 @@
 ### [About me](https://waizui.github.io/about.html)
 
 ### Posts
+* [IBM T43p 折腾记](https://waizui.github.io/posts/ibm_t43/ibm_t43.html)
+
 * [A glimpse of quaternion](https://waizui.github.io/a_glimpse_of_quaternion/a_glimpse_of_quaternion.html)
 
 * [A simple way to understand bezier curves](https://waizui.github.io/bezier_curves/a_simple_way_to_understand_bezier_curves.html)  
