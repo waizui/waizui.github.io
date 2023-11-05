@@ -4,6 +4,8 @@
 ## Posts  
 
 ### 2023
+* 2023-11-5 [IBM 240 折腾记](https://waizui.github.io/posts/ibm_240/ibm_240.html)
+
 * 2023-10-20 [IBM T43p 折腾记](https://waizui.github.io/posts/ibm_t43/ibm_t43.html)
 
 * 2023-9-11 [A glimpse of quaternion](https://waizui.github.io/a_glimpse_of_quaternion/a_glimpse_of_quaternion.html)
