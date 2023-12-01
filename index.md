@@ -25,7 +25,7 @@
 
 * 2022-8-15 [Jenkins+unity+Android混合开发](https://waizui.github.io/unity+jenkins+android.html)  
 
-### early - 2021
+### earlier - 2021
 
 * 2021-11-14 [ps2运行ps1游戏](https://waizui.github.io/popstartTutor.html)
 
