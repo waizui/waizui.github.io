@@ -3,6 +3,9 @@
 
 ## Posts  
 
+### 2024
+* 2024-3-27 [日本留学扫盲](https://waizui.github.io/posts/japan_study/japan_study.html)
+
 ### 2023
 * 2023-11-5 [IBM 240 折腾记](https://waizui.github.io/posts/ibm_240/ibm_240.html)
 
