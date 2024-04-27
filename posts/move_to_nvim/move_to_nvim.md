@@ -4,13 +4,13 @@
 
 ## 契机
 
-前段时间，DHH在他的博客上说他在["finding the last editor"](https://world.hey.com/dhh/finding-the-last-editor-dae701cc),
+前段时间，DHH在他的博客上说他在["finding the last editor"](https://world.hey.com/dhh/finding-the-last-editor-dae701cc)，
 在他后面的写代码的几十年一直使用，最后他决定试试neovim。
 
 巧合的是在DHH写这篇博客之前我已经开始转向neovim。在我开始学习vim的时候，neovim项目刚刚起步没几年，
 现在过去多年，各方面已经相当成熟。
 
-在这之前，我一直在各种编辑器里面使用模拟vim的插件，包括但不限于Rider，VSCode。不可否认VSCode这样的编辑器非常强大，
+在这之前，我一直在各种编辑器里面使用模拟vim的插件，包括但不限于rider，vscode。不可否认vscode这样的编辑器非常强大，
 社区也很活跃，除非有自己的特殊偏好，不然在工业界写代码的话我觉得首选还是这种各方面完备的IDE比较好，
 一个原因是同事几乎也都在用，可以互相配合，二个是开箱即用，很简单。
 
@@ -29,12 +29,12 @@ vim发布至今为止已经三十几年了，技术跟设计在今天看来有�
 neovim完全重写以后应该又能坚持个几十年吧。
 
 除此之外，作为解释性语言里面速度一哥，lua的速度是真的快。在我的2015款macbook pro上面用neovim感觉不到卡顿，
-用VSCode的话明显感觉响应速度跟不上我敲键盘的速度。并且这还是在我的neovim已经装上了完整的从代码高亮到debugger的各种插件的情况下，
+用vscode的话明显感觉响应速度跟不上我敲键盘的速度。并且这还是在我的neovim已经装上了完整的从代码高亮到debugger的各种插件的情况下，
 后面继续装插件也许速度会下降一些，但应该还是比VSCode要快很多的，毕竟是terminal。
 
 ## 后记
 
-在配置neovim的过程中我也踩了很多坑，特别是我想要一个多平台的配置（包括Windows，MacOs以及Linux）。
+在配置neovim的过程中我也踩了很多坑，特别是我想要一个多平台的配置（包括windows，macos以及linux）。
 想要把neovim配置成一个IDE还是要花挺大的功夫的，并且可能会在几年的使用里面才能逐渐收敛到一个得心应手的状态，
 后面会开个坑写一下教程。
 
