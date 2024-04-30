@@ -5,6 +5,8 @@
 
 ### 2024
 
+* 2024-4-30 [Neovim基础篇](https://waizui.github.io/posts/nvim_basic/nvim_basic.html)
+
 * 2024-4-27 [转向Neovim](https://waizui.github.io/posts/move_to_nvim/move_to_nvim.html)
 
 * 2024-3-27 [日本留学扫盲](https://waizui.github.io/posts/japan_study/japan_study.html)
