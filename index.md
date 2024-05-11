@@ -5,6 +5,8 @@
 
 ### 2024
 
+* 2024-4-30 [从screen pixels到barycentric coordinates](https://waizui.github.io/posts/barycentric/barycentric.html)
+
 * 2024-4-30 [Neovim基础篇](https://waizui.github.io/posts/nvim_basic/nvim_basic.html)
 
 * 2024-4-27 [转向Neovim](https://waizui.github.io/posts/move_to_nvim/move_to_nvim.html)
