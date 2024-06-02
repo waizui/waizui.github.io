@@ -161,6 +161,8 @@ return {
 }
 ```
 
+在config的program里面要指明lua的解释器，需要自己提前安装好，示例用的是luajit。
+
 如果一切顺利，配置结束后，按\<leader\>do可以打开debugui, 按\<leader\>db可以切换断点，
 按\<leader\>dc可以开始debug。
 
