@@ -56,7 +56,7 @@ Mason是一个lsp的管理器，用来安装各种语言的lsp服务，非常方
 如果lua_ls没有自动安装好，那么也可以通过Mason的UI界面手动安装，输入:Mason打开界面，
 然后光标定位到lua_language_server，输入i安装。
 
-![Mason](./Mason.png)
+![Mason](./mason.png)
 
 在中级篇里介绍了安装补全插件，想要补全插件也能通过lsp提供代码补全的话，
 需要把cmp-nvim-lsp的capabilities加入到lsp服务中去。
