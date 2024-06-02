@@ -2,7 +2,6 @@
 
 ## 2024-6-1
 
-
 在[基础篇](https://waizui.github.io/posts/nvim_basic/nvim_basic.html)和[中级篇](https://waizui.github.io/posts/nvim_intermediate/nvim_intermediate.html)里说了如何把neovim配置到可以代码补全。
 这篇说一下neovim的代码调试相关功能，把它配置成一个IDE。
 
@@ -64,23 +63,23 @@ Mason是一个lsp的管理器，用来安装各种语言的lsp服务，非常方
 
 ```lua
 return {
-	{
-		"williamboman/mason.nvim",
-	},
     {
-		"williamboman/mason-lspconfig.nvim",
-		config = function()
+        "williamboman/mason.nvim",
+    },
+    {
+        "williamboman/mason-lspconfig.nvim",
+        config = function()
         require("mason-lspconfig").setup({
             ensure_installed = { "lua_ls" },
         })
         end
     },
-	{
-		"neovim/nvim-lspconfig",
-		config = function()
-			local lspconfig = require("lspconfig")
+    {
+        "neovim/nvim-lspconfig",
+        config = function()
+            local lspconfig = require("lspconfig")
             local capabilities = require("cmp_nvim_lsp").default_capabilities()
-			lspconfig.lua_ls.setup({capabilities = capabilities})
+            lspconfig.lua_ls.setup({capabilities = capabilities})
         end
     },
 }
