@@ -182,10 +182,10 @@ the idea of 3D Gaussian Splatting is undeniably a breakthrough and is definitely
 
 ## References
 
-[1]: Kerbl, Bernhard, Georgios Kopanas, Thomas Leimkuehler, and George Drettakis. 2023. “3D Gaussian Splatting for Real-Time Radiance Field Rendering.” <i>ACM Transactions on Graphics</i>, 139, 42 (4): 1–14.<br/>
+1: Kerbl, Bernhard, Georgios Kopanas, Thomas Leimkuehler, and George Drettakis. 2023. “3D Gaussian Splatting for Real-Time Radiance Field Rendering.” <i>ACM Transactions on Graphics</i>, 139, 42 (4): 1–14.<br/>
 
-[2]: Mildenhall, Ben, Pratul P. Srinivasan, Matthew Tancik, Jonathan T. Barron, Ravi Ramamoorthi, and Ren Ng. 2020. “NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis.” <i>arXiv [Cs.CV]</i>. arXiv. http://arxiv.org/abs/2003.08934.<br/>
+2: Mildenhall, Ben, Pratul P. Srinivasan, Matthew Tancik, Jonathan T. Barron, Ravi Ramamoorthi, and Ren Ng. 2020. “NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis.” <i>arXiv [Cs.CV]</i>. arXiv. http://arxiv.org/abs/2003.08934.<br/>
 
-[3]: Zwicker, M., H. Pfister, J. van Baar, and M. Gross. July-Sep 2002. “EWA Splatting.” IEEE Transactions on Visualization and Computer Graphics 8 (3): 223–38.
+3: Zwicker, M., H. Pfister, J. van Baar, and M. Gross. July-Sep 2002. “EWA Splatting.” IEEE Transactions on Visualization and Computer Graphics 8 (3): 223–38.
 
-[4]: luacg_gaussian: https://github.com/waizui/luacg_guassian
+4: luacg_gaussian: https://github.com/waizui/luacg_guassian
