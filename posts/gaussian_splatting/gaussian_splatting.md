@@ -14,7 +14,7 @@
 
 ### The paper
 
-The paper that first introduced 3D Gaussian splatting [1] can be found [here](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/). 
+The paper that first introduced 3D Gaussian splatting \[1\] can be found [here](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/). 
 It was one of the [best papers](https://blog.siggraph.org/2023/07/siggraph-2023-technical-papers-awards-best-papers-honorable-mentions-and-test-of-time.html/) at SIGGRAPH 2023. 
 This paper was quite phenomenal at the time. A professor I know was posting retweets about 3D Gaussian splatting nearly every day for a few months. 
 I was excited but also anxious at that time, since I knew very little about this field. I was thinking the traditional rendering pipeline could be dead, 
@@ -24,7 +24,7 @@ Anyway, 3D Gaussian Splatting is a huge advancement in neural rendering. Recentl
 
 ### Abstract
 
-Overall, for people who are not familiar with neural rendering and want to get the big picture, I would like to first introduce NeRF (Neural Radiance Fields) [2], 
+Overall, for people who are not familiar with neural rendering and want to get the big picture, I would like to first introduce NeRF (Neural Radiance Fields) \[2\], 
 where photorealistic scene rendering was first achieved. Some might wonder, photorealistic rendering was achieved decades ago in CG movies. 
 While it is true that photorealistic rendering was achieved, it was by using formulas and equations to mimic the real world, which included intensive computations. 
 A frame of a high-quality CG movie might take up to days to render. However, for NeRF, things are different. Once the training is done, 
@@ -75,7 +75,7 @@ $\Sigma' = J W \Sigma W^T J^T$
 
 where $\Sigma'$ is the covariance matirx in planar coodinate system, $J$ is the jaccobian fo projection transformation, $W$ is the view transformation.
 
-This was proved by Zwicker et al. [3].
+This was proved by Zwicker et al. \[3\].
 
 In addition to covariance matrix information, a Gaussian is also associated with an opacity value for representing transparency and SH (Spherical Harmonics) coefficients for color.
 
@@ -103,7 +103,7 @@ This data can be easily extracted from several pictures using existing technique
 
 ### Rendering Gaussians
 
-For reference, I have built [this project](https://github.com/waizui/luacg_guassian) [4], which shows how a Gaussian is rendered from definition.
+For reference, I have built [this project](https://github.com/waizui/luacg_guassian) \[4\], which shows how a Gaussian is rendered from definition.
 
 Before getting into the code, I would like to explain the rendering equation used by Gaussian Splatting.
 
@@ -182,10 +182,10 @@ the idea of 3D Gaussian Splatting is undeniably a breakthrough and is definitely
 
 ## References
 
-1: Kerbl, Bernhard, Georgios Kopanas, Thomas Leimkuehler, and George Drettakis. 2023. “3D Gaussian Splatting for Real-Time Radiance Field Rendering.” <i>ACM Transactions on Graphics</i>, 139, 42 (4): 1–14.<br/>
+\[1\]: Kerbl, Bernhard, Georgios Kopanas, Thomas Leimkuehler, and George Drettakis. 2023. “3D Gaussian Splatting for Real-Time Radiance Field Rendering.” <i>ACM Transactions on Graphics</i>, 139, 42 (4): 1–14.<br/>
 
-2: Mildenhall, Ben, Pratul P. Srinivasan, Matthew Tancik, Jonathan T. Barron, Ravi Ramamoorthi, and Ren Ng. 2020. “NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis.” <i>arXiv [Cs.CV]</i>. arXiv. http://arxiv.org/abs/2003.08934.<br/>
+\[2\]: Mildenhall, Ben, Pratul P. Srinivasan, Matthew Tancik, Jonathan T. Barron, Ravi Ramamoorthi, and Ren Ng. 2020. “NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis.” <i>arXiv [Cs.CV]</i>. arXiv. http://arxiv.org/abs/2003.08934.<br/>
 
-3: Zwicker, M., H. Pfister, J. van Baar, and M. Gross. July-Sep 2002. “EWA Splatting.” IEEE Transactions on Visualization and Computer Graphics 8 (3): 223–38.
+\[3\]: Zwicker, M., H. Pfister, J. van Baar, and M. Gross. July-Sep 2002. “EWA Splatting.” IEEE Transactions on Visualization and Computer Graphics 8 (3): 223–38.
 
-4: luacg_gaussian: https://github.com/waizui/luacg_guassian
+\[4\]: luacg_gaussian: https://github.com/waizui/luacg_guassian
