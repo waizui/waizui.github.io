@@ -73,7 +73,7 @@ If we want to project a 3D Gaussian onto a 2D plane, we can use this equation to
 
 $\Sigma' = J W \Sigma W^T J^T$
 
-where $\Sigma'$ is the covariance matirx in planar coodinate system, $J$ is the jaccobian fo projection transformation, $W$ is the view transformation.
+where $\Sigma'$ is the covariance matrix in planar coordinate system, $J$ is the jaccobian of projection transformation, $W$ is the view transformation.
 
 This was proved by Zwicker et al. \[3\].
 
