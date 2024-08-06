@@ -37,7 +37,7 @@ $$
 
 其实使用三角形的面积比例来求重心坐标的式子相当于就是用每两条边的叉乘的结果来做比，而叉乘结果又是normal向量，
 normal向量在缩放之后与三角形的相对位置关系会错误，所以也就不能这么算，
-可以参考这篇：[normal transform](https://waizui.github.io/normalTransform/normalTransform.html)。
+可以参考这篇：[normal transform](https://waizui.github.io/posts/normalTransform/normalTransform.html)。
 
 ## 换一个空间中计算
 
