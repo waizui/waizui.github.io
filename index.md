@@ -29,7 +29,7 @@
 
 * 2023-8-8 [A simple way to understand bezier curves](https://waizui.github.io/posts/bezier_curves/a_simple_way_to_understand_bezier_curves.html)  
 
-* 2023-1-31 [猫入境日本](https://waizui.github.io/others/pet/catToJapan/pets.html)  
+* 2023-1-31 [猫入境日本](https://waizui.github.io/posts/catToJapan/pets.html)  
 
 
 ### 2022
