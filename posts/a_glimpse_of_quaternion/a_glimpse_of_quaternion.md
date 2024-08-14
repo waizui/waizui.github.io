@@ -379,7 +379,25 @@ no trigonometric calculation is needed, the equivalent matrix can be very effici
 
 ## 5. A Implement
 
-...someday!
+~~...someday!~~
+
+Now you can check a lua implementation of quaternion in this [repository](https://github.com/waizui/luacg),
+
+For example, the following code is multiplication of quaternions, check this repository for more details.
+
+```lua
+-- composing two quaterions by order a,b
+---@param a Quaternion
+---@param b Quaternion
+---@return Quaternion
+function Quaternion.__mul(a, b)
+  local r = a.r * b.r - (a.i * b.i + a.j * b.j + a.k * b.k) -- a1a2−(b1b2+c1c2+d1d2)
+  local i = a.r * b.i + b.r * a.i + a.j * b.k - a.k * b.j  -- a1b2+a2b1+c1d2−d1c2
+  local j = a.r * b.j + b.r * a.j - a.i * b.k + a.k * b.i  -- a1c2+a2c1−b1d2+d1b2
+  local k = a.r * b.k + b.r * a.k + a.i * b.j - a.j * b.i  -- a1d2+a2d1+b1c2−c1b2
+  return Quaternion.new(r, i, j, k)
+end
+```  
 
 ## References
 
