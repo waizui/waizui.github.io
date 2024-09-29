@@ -18,6 +18,11 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://waizui.github.io/posts/bvh/bvh.html</loc>
+  <lastmod>2024-09-29T12:17:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://waizui.github.io/posts/gaussian_splatting/gaussian_splatting.html</loc>
   <lastmod>2024-08-14T14:55:35+00:00</lastmod>
   <priority>0.80</priority>

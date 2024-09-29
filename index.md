@@ -5,6 +5,8 @@
 
 ### 2024
 
+* 2024-9-29 [Bounding Volume Hierarchy](https://waizui.github.io/posts/bvh/bvh.html)
+
 * 2024-7-30 [Explaining 3D Gaussian-Splatting](https://waizui.github.io/posts/gaussian_splatting/gaussian_splatting.html)
 
 * 2024-6-1 [Neovim进阶篇](https://waizui.github.io/posts/nvim_advanced/nvim_advanced.html)
