@@ -39,11 +39,12 @@ The following picture illustrates this process.
 
 ![pic.3](./hierachy.png)
 
-**fig. 3. The red ray traverses the BVH. Continuing to check smaller bounding box if they intersect with the ray.**
+**fig. 3. The red ray traverses the BVH. Continuing to check smaller bounding box if they intersect with the ray. Since the ray does not intersect with the bounding box of the sphere, there is no need to check for intersection with the sphere.**
 
 With the acceleration provided by BVH, we can omit unnecessary computations and find the intersection point much more efficiently.
 
 ![pic.4](./casting_bvh.png)
+
 **fig. 4. The red bounding box conatins the intersection point.**
 
 ### Performance Comparison
