@@ -30,7 +30,7 @@ which are witnin a bigger box. These boxes are called **Bounding Boxes.**
 
 ![pic.2](./bvh.png)
 
-**fig.2. BHV(green boxes) of box and sphere**
+**fig.2. BVH(green boxes) of box and sphere**
 
 Once we have the BVH, intersection checking becomes more efficient. To find the ray intersection point,
 we first check if the ray intersects with the largest box, if it does, 
