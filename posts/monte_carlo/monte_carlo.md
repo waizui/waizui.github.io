@@ -10,7 +10,6 @@
     </script>
 </head>
 
-Here is the corrected version of the article with grammar improvements:
 
 # Monte Carlo Method
 
