@@ -22,7 +22,7 @@ This is one way to estimate the value of an integral, but its convergence speed 
 $$\lim_{n \to \infty} \frac{b-a}{n} \sum_{i=1}^{n} f(x_i) = \int_a^b f(x) \, dx $$
 
 For example, if we want to integrate a Gaussian distribution  $f(x)$  and use the Riemann sum to estimate the value, what are we going to do? 
-We need to choose an integer $n$ that determines how many fragments we want to split the integral domain into, and then estimate $f(x)$ at $\frac{1}{n}, \frac{2}{n}, \dots, 1$.
+We need to choose an integer $n$ that determines how many fragments we want to split the integral domain $ k $ into, and then estimate $f(x)$ at $\frac{k}{n}, \frac{2k}{n}, \dots, k$.
 
 The problem is: if we choose an inappropriate $n$, for example, if  $n$ is too small, we might miss the peak value of  $f(x)$.  
 
