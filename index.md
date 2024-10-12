@@ -5,7 +5,7 @@
 
 ### 2024
 
-* 2024-10-10 [Monte Carlo Integral](https://waizui.github.io/posts/monte_carlo/monte_carlo.html)
+* 2024-10-10 [Monte Carlo Method](https://waizui.github.io/posts/monte_carlo/monte_carlo.html)
 
 * 2024-9-29 [Bounding Volume Hierarchy](https://waizui.github.io/posts/bvh/bvh.html)
 
