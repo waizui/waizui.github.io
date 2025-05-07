@@ -3,7 +3,7 @@
 
 ## Posts  
 
-### 2024
+### 2025
 
 * 2025-5-7 [一次成功的失败](https://waizui.github.io/posts/nintendo_fail/nintendo_fail.html)
 
