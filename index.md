@@ -5,6 +5,10 @@
 
 ### 2024
 
+* 2025-5-7 [一次成功的失败](https://waizui.github.io/posts/nintendo_fail/nintendo_fail.html)
+
+### 2024
+
 * 2024-12-11 [Sampling Octahedron Environment Map Lighting](https://waizui.github.io/posts/env_map_light/env_map_light.html)
 
 * 2024-10-10 [Monte Carlo Method](https://waizui.github.io/posts/monte_carlo/monte_carlo.html)
