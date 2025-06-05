@@ -152,7 +152,6 @@ fn P(l: i32, m: i32, x: f32) -> f32 {
 The normalization constant $K_\ell^m$:
 
 ```rust
-/// double factorial
 fn factorial(x: i32) -> f32 {
     if x == 0 {
         return 1f32;
