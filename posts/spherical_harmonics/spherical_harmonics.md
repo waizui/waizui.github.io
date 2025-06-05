@@ -81,7 +81,7 @@ $$
 $$
 
 The SH functions are defined on imaginary numbers but we are only interested in approximating real functions,
-only real form of SH there was used there:
+only real form of SH was used there:
 
 $$
 \begin{align}
@@ -105,7 +105,7 @@ Define sequence $y_i$ of $y_\ell^m$ can be useful:
 $$
 \begin{align}
 
-    y_\ell^m(\theta, \phi) =  y_i(\theta, \phi), \ where \ i=l(l+1)+m
+    y_\ell^m(\theta, \phi) =  y_i(\theta, \phi), \ where \ i=\ell(\ell+1)+m
 
 \end{align}
 $$
@@ -214,7 +214,7 @@ or for  simplexity:
 $$
 \begin{align}
 
-     \  c_i &=  \int_Sf(s)y_i(s)ds \\ where\  i &= l(l+1)+m
+     \  c_i &=  \int_Sf(s)y_i(s)ds \\ where\  i &= \ell(\ell+1)+m
 
 \end{align}
 $$
@@ -367,8 +367,8 @@ fn reconstruct_sh(
 ```
 
 
-I've tested with two types of environment light. The results shows following, 
-notice that the approximated light getting more accurate while increasing degree of SH.
+I've tested with two types of environment light. Notice that the approximated light getting more 
+accurate while increasing degree of SH.
 
 ![rec1](./sh_rec1.png)
 
