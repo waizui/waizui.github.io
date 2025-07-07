@@ -38,6 +38,12 @@ ps3的LAN口支持千兆，为了发挥最大速度，需要买一根6类网线�
 然后回车，会出现运行成功的提示。这样我们就开启了ps3远程加载iso的服务端。
 
 ### Linux&macOS:
+
+**Update 2025**
+这是我从1.47.24构建的树莓派的ps3netsrv，在最新的Raspberrpi OS 64bit上可以运行
+[ps3netsrv for Paspberrypi OS 64bit](./ps3netsrv/ps3netsrv)
+**End Update 2025**
+
 跟win10一样，建立专门存放的ps3游戏的文件夹
 
 运行刚刚下载回来的ps3netsrv的对应版本，如果不能运行，记得给一下运行权限。打开终端，cd到对应的文件夹下，输入指令:
