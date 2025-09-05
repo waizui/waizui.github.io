@@ -102,7 +102,7 @@ $$
 \end{align}
 $$
 
-Where $c_{i}(d)$ is the color of i-th Gaussian at direction $d$, and $alpha_{i}$ it opacity of i-th Gaussian. It is like alpha blending alont the ray.
+Where $c_{i}(d)$ is the color of i-th Gaussian at direction $d$, and $\alpha_{i}$ it opacity of i-th Gaussian. It is like alpha blending alont the ray.
 
 And this equation requires Gaussians ordered by their distance from near to far, since travesal of BVH nodes not guarantee order, 
 a insertion sort algorithm in the BVH traversal is used to retrive Gaussians by the order of their distance.
