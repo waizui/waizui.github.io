@@ -90,7 +90,7 @@ pub fn from_ply(path: &str) -> Result<Self> {
 }
 ```
 
-### Step 3. Tracing Gaussian with volume rendering technique.
+### Step 3. Trace Gaussian with volume rendering technique.
 
 To determine the color of a ray direction, all gaussians intersected to this ray need to accumulate their opacity and color using 
 
