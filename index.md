@@ -5,6 +5,8 @@
 
 ### 2025
 
+* 2025-9-5 [Ray tracing 3D Gaussians](https://waizui.github.io/posts/trace_gaussian/trace_gaussian.html)
+
 * 2025-7-13 [完全使用RaspberryPi 5工作](https://waizui.github.io/posts/pi5/pi5.html)
 
 * 2025-6-6 [Spherical Harmonic Lighting](https://waizui.github.io/posts/spherical_harmonics/spherical_harmonics.html)
