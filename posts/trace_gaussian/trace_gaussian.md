@@ -17,11 +17,11 @@ Code example can be found [there](https://github.com/waizui/illuminator/blob/mai
 ## Why?
 
 3D Gaussian-splatting (3DGS) is a very interesting technology. It uses a tile-based rasterizer to rendering millions of Gaussians in real-time.
-I was wondering if I can render Gaussians by a ray tracer. Foutunately, the anwser is yes, there have been some researchers want to do tha same thing as me.
+I was wondering if I can render Gaussians by a ray tracer. Fortunately, the answer is yes, there have been some researchers want to do the same thing as I did.
 
 Accutally, ray tracing Gaussians not only is interesting but also has some benefits. For example, because of the intrinsic properties of ray tracing, 
 effects like motion blur, depth of field and such can be achieved when rendering Gaussians. Moreover, physically based randering become possible,
-such as environment lighting, rafraction, reflecton and etc.
+such as environment lighting, rafraction, reflection and etc.
 
 ![Fig 1.](./effects.png)
 
@@ -107,7 +107,7 @@ Where $c_{i}(d)$ is the color of i-th Gaussian at direction $d$, and alpha_{i} i
 And this equation requires Gaussians ordered by their distance from near to far, since travesal of BVH nodes not guarantee order, 
 a insertion sort algorithm in the BVH traversal is used to retrive Gaussians by the order of their distance.
 The code below shows an any_raycast function, which returns true if an intersction is skipped. For example, if coming hits have distance of (3,8,20,5) and 
-buf has initial values of (100,100,100), the final buf will be (3,5,8), 20 will be leave for next tracing.
+buf has initial values of (100,100,100), the final buf will be (3,5,8), 20 will be left for next tracing.
 
 ```rust
 self.bvh.any_raycast(&ray, |_, hit, prim_i| {
@@ -162,6 +162,8 @@ The example code can be fond [there](https://github.com/waizui/illuminator/blob/
 After accumulating color in all ray directions, a ray traced 3D Gaussian-Splatting image can be formed as below(I changed the orientation of image).
 
 ![result](./bicycle.png)
+
+**Fig 2. Ray traced 3DGS.**
 
 The example code is.
 
