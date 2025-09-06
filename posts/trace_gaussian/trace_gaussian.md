@@ -160,7 +160,7 @@ The example code can be fond [there](https://github.com/waizui/illuminator/blob/
 ## Result
 
 After accumulating color in all ray directions, a ray traced 3D Gaussian-Splatting image can be formed as below(I changed the orientation of image).
-The image looks not good as rasterized 3DGS because I use AABB, which is a rough approximation of Gaussian and haven't optimize the Gaussians with ray tracer.
+The image looks not as good as rasterized 3DGS because I use AABB, which is a rough approximation of Gaussian and haven't optimize the Gaussians with ray tracer.
 
 ![result](./bicycle.png)
 
