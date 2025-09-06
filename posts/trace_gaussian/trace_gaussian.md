@@ -19,7 +19,7 @@ Code example can be found [there](https://github.com/waizui/illuminator/blob/mai
 3D Gaussian-splatting (3DGS) is a very interesting technology. It uses a tile-based rasterizer to rendering millions of Gaussians in real-time.
 I was wondering if I can render Gaussians by a ray tracer. Fortunately, the answer is yes, there have been some researchers want to do the same thing as I did.
 
-Accutally, ray tracing Gaussians not only is interesting but also has some benefits. For example, because of the intrinsic properties of ray tracing, 
+Acutally, ray tracing Gaussians not only is interesting but also has some benefits. For example, because of the intrinsic properties of ray tracing, 
 effects like motion blur, depth of field and such can be achieved when rendering Gaussians. Moreover, physically based randering become possible,
 such as environment lighting, rafraction, reflection and etc.
 
@@ -160,6 +160,7 @@ The example code can be fond [there](https://github.com/waizui/illuminator/blob/
 ## Result
 
 After accumulating color in all ray directions, a ray traced 3D Gaussian-Splatting image can be formed as below(I changed the orientation of image).
+The image looks not good as rasterized 3DGS because I use AABB, which is a rough approximation of Gaussian and haven't optimize the Gaussians with ray tracer.
 
 ![result](./bicycle.png)
 
