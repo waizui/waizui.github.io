@@ -11,8 +11,6 @@
 
 * 2025-6-6 [Spherical Harmonic Lighting](https://waizui.github.io/posts/spherical_harmonics/spherical_harmonics.html)
 
-* 2025-5-7 [一次成功的失败](https://waizui.github.io/posts/nintendo_fail/nintendo_fail.html)
-
 ### 2024
 
 * 2024-12-11 [Sampling Octahedron Environment Map Lighting](https://waizui.github.io/posts/env_map_light/env_map_light.html)
