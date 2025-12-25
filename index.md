@@ -60,10 +60,8 @@
 
 ### earlier - 2021
 
-* 2021-11-14 [ps2运行ps1游戏](https://waizui.github.io/posts/popstartTutor.html)
 
 * [vim入门](https://waizui.github.io/posts/vimTutor/vimTutor.html)
 
-* [ps3远程加载iso](https://waizui.github.io/posts/ps3netsrvTutor.html)
 
 * [ps2入坑指南](https://waizui.github.io/posts/ps2guide/ps2guide.html)
