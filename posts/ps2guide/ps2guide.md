@@ -4,14 +4,6 @@
 
 ## **目录**
 
-[机型](#1机型models)
-[配件](#2配件accessories)
-[破解](#3破解soft-mod)
-[配置网络硬盘Windows](#windows10篇)
-[配置网络硬盘Linux](#linux篇)
-
-
-
 
 ## **1.机型(models)**
 
