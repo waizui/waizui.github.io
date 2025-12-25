@@ -46,7 +46,7 @@
 2. 
     >记忆卡（memoryCard）:ps2的唯一内置储存介质，游戏存档和系统设置都存在里面，越大越好，淘宝很多，十几块钱。此外你还必须买另外一张记忆卡，也很便宜，几十块钱。ps2可以插两张记忆卡。
 
-    >![memoryCard](./images/memorycard.jpg)
+    >![memoryCard]()
 z
 1. 
     >视频线(video cable):ps2支持几种视频输出格式，这里我只推荐两种  
