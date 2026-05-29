@@ -3,6 +3,10 @@
 
 ## Posts  
 
+### 2026
+
+* 2026-5-29 [Let's build a GPT-2 (I)](https://waizui.github.io/posts/gpt/gpt_i.html)
+
 ### 2025
 
 * 2025-9-5 [Ray tracing 3D Gaussians](https://waizui.github.io/posts/trace_gaussian/trace_gaussian.html)
