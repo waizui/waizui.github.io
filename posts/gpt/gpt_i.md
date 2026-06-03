@@ -84,6 +84,7 @@ class GPTEmbedding(torch.nn.Module):
     def forward(self, x: torch.Tensor):
         b, seq_len = x.shape
         x = self.tok_emb(x) + self.pos_emb(torch.arange(seq_len, device=x.device))
+        x = self.drop_emb(x)
         return x
 ```
 
