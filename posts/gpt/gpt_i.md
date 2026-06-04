@@ -197,6 +197,4 @@ $$
 The shape of the final embedding vector is `[seq_len, out_dim]`. If `seq_len > context_size`, the extra positional information cannot
 be encoded into embedding vectors, which is why the context size of an LLM is critical. 
 
-## Multi-Attention Head
-
-To be continued ...
+## To be continued ...
