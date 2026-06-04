@@ -70,18 +70,19 @@ There is a math trick: instead of setting masked values to zero, we set them to 
 thus, we can omit the re-normalization. This is a property of **softmax**: 
 
 $$
-
+\begin{align}
 \text{softmax}(x_1,\ldots,x_k,-\infty,\ldots)_i
-=
+&=
 \frac{e^{x_i}}
-{\sum_{j \le k} e^{x_j} + \sum_{j>k} e^{-\infty}}
-=
+{\sum_{j \le k} e^{x_j} + \sum_{j>k} e^{-\infty}} \\
+&=
 \frac{e^{x_i}}
-{\sum_{j \le k} e^{x_j}}
-= 
+{\sum_{j \le k} e^{x_j}} \\
+&= 
 \text{softmax}(x_1,\ldots,x_k)_i
 
 \quad i \le k.
+\end{align}
 $$
 
 
