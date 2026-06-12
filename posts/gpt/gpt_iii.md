@@ -32,7 +32,7 @@ I will skip the detailed explanation, since these are common in other deep learn
 Here is an implementation of GPT2 shown in the picture:
 
 
-```Python
+```python
 class GPTModel(nn.Module):
     def __init__(self, cfg: GPTConfig) -> None:
         super().__init__()
@@ -58,7 +58,7 @@ class GPTModel(nn.Module):
 
 Here is the transformer block.
 
-```Python
+```python
 class TransformerBlock(nn.Module):
     def __init__(self, cfg: GPTConfig) -> None:
         super().__init__()
@@ -111,7 +111,7 @@ If input is `I love`, we need to maximize the probability of **next-token-is-eat
 If input is `love eat`, we need to maximize the probability of **next-token-is-apple**, which is $P(apple|love,eat)$. (inputs have context length of 2)
 In PyTorch, we use $-L_1$, so the objective becomes to minimize the **cross-entropy loss**.
 
-```Python
+```python
 def calc_loss_batch(
     input_batch: Tensor, target_batch: Tensor, model: GPTModel, device: Device
 ):
@@ -131,7 +131,7 @@ we can split it into more chunks.
 
 The core part of training loop is simple, it looks like this:
 
-```Python
+```python
     prepare data ...
     
     for epoch in range(num_epochs):
@@ -160,7 +160,7 @@ If we use high temperature, the output tends to be more creative, but sometimes 
 To address this, we use **Top-k sampling** to keep only the top-k highest-probability candidate tokens.
 
 
-```Python
+```python
 def gen_text(
     model: GPTModel,
     idx: Tensor, # [1, num_tokens]
@@ -202,7 +202,7 @@ def gen_text(
 
 Finally, we can use tokenizer to convert these generated token ids to text:
 
-```Python
+```python
 def text_to_token_ids(text, tokenizer: Tokenizer) -> Tensor:
     return torch.tensor(tokenizer.encode(text)).unsqueeze(0)
 
