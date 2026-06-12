@@ -98,13 +98,11 @@ $$
 
 where $U=\{u_1,\dots,u_n\}$ is an unsupervised corpus of tokens, $\Theta$ is a neural network that predicts $u_i$, $k$ is context length.
 
-To be as simple as possible, let's take $k = 2, n=4$ and $ U =\{ u_1 = I, u_2 = love, u_3 = eat, u_4 = apple\} $ as an example.
+To be as simple as possible, let's take $k = 2, n=4$ and $U =\{ u_1 = I, u_2 = love, u_3 = eat, u_4 = apple\}$ as an example.
 
 If input is `I love`, we need to maximize the probability of **next-token-is-eat**, which is $P(eat|I,love)$.
-
 If input is `love eat`, we need to maximize the probability of **next-token-is-apple**, which is $P(apple|love,eat)$. (inputs have context length of 2)
-
-In PyTorch, we use $-L_1$, so the objective becomes to minimize the **cross-entropy loss** .
+In PyTorch, we use $-L_1$, so the objective becomes to minimize the **cross-entropy loss**.
 
 ```Python
 def calc_loss_batch(
