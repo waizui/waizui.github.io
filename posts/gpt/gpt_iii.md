@@ -19,6 +19,8 @@
 
 # Let's build a GPT-2 (III)
 
+[Source Code](https://github.com/waizui/gpt2_rep)
+
 In part II, I explained how the **attention mechanism works**. This time, let's continue to train a language model.
 
 ## The Implementation 

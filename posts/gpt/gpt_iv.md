@@ -19,6 +19,8 @@
 
 # Let's build a GPT-2 (IV)
 
+[Source Code](https://github.com/waizui/gpt2_rep)
+
 In this part, I will introduce how to fine-tune a GPT2 model with instructions, which can make the model follow instructions.
 
 ## Why Instruction Fine Tuning

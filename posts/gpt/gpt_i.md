@@ -12,6 +12,8 @@
 
 # Let's build a GPT-2 (I)
 
+[Source Code](https://github.com/waizui/gpt2_rep)
+
 Although GPT-2 is a six-year-old model, the core idea of the transformer is still the foundation of today's LLMs.
 Its hardware requirements are very low compared to GPT-3. So, why not build a GPT-2 from scratch?
 

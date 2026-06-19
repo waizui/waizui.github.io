@@ -10,7 +10,9 @@
     </script>
 </head>
 
-# Let's build a GPT-2 (II)
+# Let's build a GPT-1 (II)
+
+[Source Code](https://github.com/waizui/gpt2_rep)
 
 In part I, I explained how **embedding** works. In this part, let's delve into how the attention mechanism works.
 
