@@ -4,6 +4,7 @@
 ## Posts  
 
 ### 2026
+* 2026-6-19 [Let's build a GPT-2 (IV)](https://waizui.github.io/posts/gpt/gpt_iv.html)
 
 * 2026-6-11 [Let's build a GPT-2 (III)](https://waizui.github.io/posts/gpt/gpt_iii.html)
 
